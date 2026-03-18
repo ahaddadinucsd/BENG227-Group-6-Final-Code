@@ -7,10 +7,10 @@ parameters_improved.m: Initializes all model parameters for all non-disease mode
 
 diggdt_driver_spatialgradients.m: Runs the transport model simulation and generates plots of original fetal IgG subclass concentrations, heatmap of spatial concentration gradients, and IgG subclass spatial concentration gradients.
 
-diggdt_driver_FM.m:
+diggdt_driver_FM.m: Driver function that computes model dynamics for fetal and maternal system, creating a fetal:maternal plot of IgG transport.
 
-parameters_endometriosis.m:
+parameters_endometriosis.m: Defines parameters specific to modeling endometriosis conditions.
 
-parameters_preeclampsia.m: 
+parameters_preeclampsia.m: Defines parameters specific to modeling preeclampsia conditions.
 
-run_preeclampsia_comparison.m: 
+run_preeclampsia_comparison.m: Script that runs simulations to compare healthy vs. diseased model outputs.
