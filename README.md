@@ -6,3 +6,8 @@ parameters_improved.m: Initializes all model parameters, including biological co
 
 diggdt_driver_spatialgradients.m: Runs the transport model simulation and generates plots of original fetal IgG subclass concentrations, heatmap of spatial concentration gradients, and IgG subclass spatial concentration gradients.
 
+parameters_endometriosis.m:
+
+parameters_preeclampsia.m: 
+
+run_preeclampsia_comparison.m: 
