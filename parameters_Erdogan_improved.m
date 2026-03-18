@@ -19,7 +19,7 @@ p.igg4 = 0.34/p.mass_igg; % maternal IgG4 concentration (M)
 % --- Stroma transport (method-of-lines) parameters ---
 p.Nstr  = 5;        % number of stromal spatial nodes
 p.Lstr  = 1.0;      % stromal thickness (model units)
-p.Dstr  = 5;     % effective stromal diffusivity (model units)
+p.Dstr  = 1;     % effective stromal diffusivity (model units) able to be changed
 p.ustr  = 0.0;      % advection velocity where 0 = diffusion-only
 p.dxstr = p.Lstr/(p.Nstr-1);
    p.v_stb = mean([0.224,0.258]); %total volume of syncytiotrophoblast endosomes (L)
