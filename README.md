@@ -1,4 +1,5 @@
 # BENG227-Group-6-Final-Code
+These files have been altered from Remziye E Wessel, Sepideh Dolatshahi. Quantitative mechanistic model reveals key determinants of placental IgG transfer and informs prenatal immunization strategies. PLoS Comput Biol 2023;19:. https://doi.org/10.1371/journal.pcbi.1011109. Github repository.
 
 diggdt_transport_improved.m: Defines the system of ODEs and implementation of method of lines for the PDE that solves the stromal placental transport across a spatial domain.
 
